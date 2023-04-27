@@ -1,0 +1,76 @@
+/* CABEÇALHO_inicio*/
+header {
+	background:linear-gradient(#F5771B 70%, #FFFFFF ) ;
+	padding-inline-end: 35px ;
+
+}
+#CABEÇALHO{
+	position: relative;
+	width: 940px;
+	margin:  0 auto;
+    padding: 30px;
+}
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 35px;
+
+}
+nav a {
+	color: #000000;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 25px;
+	text-decoration: none;
+    font-weight: bold;
+
+}
+.img {
+    width: 200px;
+	padding: 0 70px 50px 0 ;
+}
+
+
+
+/* CABEÇALHO_final */
+
+.Titulo_instagram{
+	font-size: 60px;
+	text-align: center;
+	margin-top: 150px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+}
+.qr{
+	width: 25%;
+	border: 5px solid #000000;
+	border-radius: 10px;
+	box-shadow: 40px 40px 150px 50px #F5771B;
+	margin-top: 80px;
+
+}
+.instagram{
+	text-align: center;
+	margin: 50px;
+}
+
+/*rodape_inicio*/
+footer{
+    text-align: center;
+    padding: 10px;
+	background: url(img/bg.jpg);
+	background-color: transparent;
+	margin-top: 300px;
+}
+#imagem_rodape{
+    width: 150px;
+}
+.copyright {
+	color: #ffffff;
+	font-size: 23px;
+    padding: 15px;
+}
+/*rodape_final*/

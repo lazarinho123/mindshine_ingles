@@ -1,0 +1,174 @@
+:root{
+	--cor-de-fundo: #FFFFFF;
+	--preto-principal: #000000;
+}
+.body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* CABEÇALHO_inicio*/
+header {
+	background:linear-gradient(#F5771B 70%, #FFFFFF ) ;
+	padding-inline-end: 35px ;
+
+}
+#CABEÇALHO{
+	position: relative;
+	width: 940px;
+	margin:  0 auto;
+    padding: 30px;
+}
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 35px;
+
+}
+nav a {
+	color: #000000;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 25px;
+	text-decoration: none;
+    font-weight: bold;
+
+}
+.img {
+    width: 200px;
+	padding: 0 70px 50px 0 ;
+}
+
+
+
+/* CABEÇALHO_final */
+
+/*imagem_inicio*/
+.Mindshine{
+    text-align: center;
+    font-size: 150px;
+    margin: 70px 0 40px 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+.imagem{
+    text-align: center;
+
+}
+.foto_sala{
+    width: 50%;
+    text-align: center;
+    margin: 30px 0 70px 0;
+    box-shadow: 40px 30px 40px 5px #F5771B;
+}
+p {
+    color: #000000;
+    font-family: 'Roboto Slab', serif;
+	font-size: 25px;
+	padding: 15px;
+    line-height : 28px;
+    margin: 0 100px 0 100px;
+	text-align: justify;
+
+}
+b {
+    font-weight: bold;
+}
+/*imagem_inicio*/
+
+.titulo_professores{
+    padding: 200px 0 40px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+.Professores{
+	width: 1440px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.Professores li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 25px 20px 20px 20px;
+	box-sizing: border-box;
+	border: 2px solid #f5761bde;
+	border-radius: 10px;
+    box-shadow: 30px 20px 40px 1px #F5771B;
+}
+.Professores_2{
+    width: 1440px;
+	margin: 0 auto;
+	padding: 50px 0;
+    text-align: center;
+}
+.Professores_2 li {
+    display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 3%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #f5761bde;
+	border-radius: 10px;
+    box-shadow: 30px 20px 40px 1px #F5771B;
+}
+.Professores_3{
+    width: 1440px;
+	margin: 0 auto;
+	padding: 50px 0;
+    text-align: center;
+}
+.Professores_3 li {
+    display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 3%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #f5761bde;
+	border-radius: 10px;
+    box-shadow: 30px 20px 40px 1px #F5771B;
+}
+.img_professores{
+    width: 100%;
+
+}
+h2 {
+    font-size: 40px;
+    padding: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+/*rodape_inicio*/
+footer{
+    text-align: center;
+    padding: 10px;
+	background: url(img/bg.jpg);
+	background-color: transparent;
+	margin-top: 300px;
+}
+#imagem_rodape{
+    width: 150px;
+}
+.copyright {
+	color: #ffffff;
+	font-size: 23px;
+    padding: 15px;
+}
+/*rodape_final*/
+

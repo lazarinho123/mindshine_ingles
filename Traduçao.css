@@ -1,0 +1,100 @@
+;:root {
+    --branco-principal: #FFFFFF;
+    --cor-da-equipe:  #f26a2e;
+
+}
+header {
+	background:linear-gradient(#F5771B 70%, #FFFFFF ) ;
+	padding-inline-end: 35px ;
+
+}
+#CABEÇALHO{
+	position: relative;
+	width: 940px;
+	margin:  0 auto;
+	padding: 30px;
+}
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 55px;
+}
+nav a {
+	color: #000000;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 30px;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+.img {
+    width: 200px;
+	padding: 0 70px 50px 0 ;
+}
+
+.Lingua{
+	width: 980px;
+	margin: auto;
+	padding: 80px 0;
+    text-align: center;
+}
+.Lingua li{
+	display: inline-block;
+	text-align: center;
+	width: 45%;
+	vertical-align: top;
+	margin: auto;
+	padding: 25px 25px 25px 25px ;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+    margin: 22px;
+}
+
+#USD{
+    width: 76%;
+}
+#REAL{
+    width: 70%;
+}
+.Lingua li:hover {
+	background: #f26a2e;
+	transform: scale(1.1);
+	transition: 1s all;
+	border-color: #f26a2e;
+    
+}
+.Lingua li:active{
+	border-color: #f26a2e;
+    background-color: #f26a2e;
+}
+
+
+.descriçao{
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-decoration: none;
+	color: #000000;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+	background: url(img/bg.jpg);
+	background-color: transparent;
+	margin-top: 60px;
+}
+#imagem_rodape{
+    width: 150px;
+}
+.copyright {
+	color: #ffffff;
+	font-size: 23px;
+    padding: 15px;
+}
+
+
